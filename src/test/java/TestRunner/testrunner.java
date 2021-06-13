@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
         features = "src/test/java/Feature",
         glue= {"StepDefination","utilities"},
-        tags= {"@Regression"}  //AND Condition
+        tags= {"@Regression1"}  //AND Condition
        // tags= {"@Regression","@Sanity"}
         )
 public class testrunner {

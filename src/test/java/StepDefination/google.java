@@ -13,7 +13,7 @@ import utilities.hooks;
 
 public class google {
 	
-	WebDriver driver = hooks.driver;
+	WebDriver driver = hooks.driver; 
 	@Given("^User is on google homepage$")
 	public void user_is_on_google_homepage() throws Throwable {
 	  
